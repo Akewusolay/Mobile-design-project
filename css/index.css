@@ -1,3 +1,25 @@
 /* Example of @import use
 This imports the `reset.css` file */
 @import './reset.css';
+@import './mobile.css';
+
+.container {
+    display: flex; /* or inline-flex */
+  }
+.design-project {
+    padding: 5px;
+    background-color: #00AAFF;
+    width: 40%;
+  }
+
+.d-flex {
+    display: flex;
+  }
+
+  .d-block {
+    display: block;
+  }
+
+  .jc-btw {
+    justify-content: space-between;
+  }
