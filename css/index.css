@@ -24,3 +24,7 @@ This imports the `reset.css` file */
 .jc-btw {
   justify-content: space-between;
 }
+
+.pos-rel {
+  position: relative;
+}
