@@ -1,0 +1,121 @@
+.header {
+  width: 100%;
+  height: 92px;
+}
+
+.menu {
+  padding-top: 12px;
+}
+
+.text {
+  width: 220px;
+  height: 100px;
+  line-height: 50px;
+  padding-left: 16px;
+  padding-top: 10%;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+.text2 {
+  font: 400 14px/21px 'Poppins', sans-serif;
+  padding-top: 20%;
+  padding-left: 16px;
+}
+
+.collabo {
+  height: 50px;
+  margin-top: 26px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: #1a2236;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.collabo a {
+  font: 400 14px/21px 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.mobile-picture {
+  background-image: url("../images/image_geometry_2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 109%;
+}
+
+.text3 {
+  font: 400 50px/50px 'Playfair Display', serif;
+  padding-top: 70%;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.related-images .lap-pics img {
+  background-color: white;
+  width: 100%;
+  height: 60%;
+}
+
+.rectangle {
+  background-color: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+  width: 100%;
+  height: 50%;
+  color: #fff;
+}
+
+.name {
+  font: 300 20px/16px 'Poppins', sans-serif;
+  text-align: left;
+  padding: 16px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+}
+
+.html-css {
+  font: 300 10.33px/8.27px 'Poppins', sans-serif;
+  text-align: center;
+  padding: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: #98dede;
+}
+
+.colla-job {
+  display: flex;
+  margin: 12px;
+  padding: 5px;
+  border: 1px solid #ffff;
+  width: 60%;
+  height: 25%;
+  place-items: center;
+}
+
+.pro-text {
+  font: 500 16px/24px 'Poppins', sans-serif;
+  color: #fff;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.design-project {
+  padding: 5px;
+  background-color: #0af;
+  width: 40%;
+}
+
+.related-images .lap-pics {
+  position: static;
+  flex: 150px;
+}

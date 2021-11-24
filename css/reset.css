@@ -1,8 +1,43 @@
 /* Base styles */
+body {
+  background: #fff;
+  font-size: 14px;
+}
+
 *,
 *::before,
 *::after {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.jc-btw {
+  justify-content: space-between;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.work {
+  display: grid;
+  justify-content: space-between;
+}
+
+.color-white {
+  color: #fff;
+  line-height: 0px;
 }
