@@ -2,6 +2,7 @@
 body {
   background: #fff;
   font-size: 14px;
+  width: 100%;
 }
 
 *,
@@ -13,6 +14,7 @@ body {
 }
 
 .d-flex {
+  position: relative;
   display: flex;
 }
 
@@ -30,14 +32,12 @@ a {
 
 .pos-rel {
   position: relative;
+  display: block;
 }
 
-.work {
-  display: grid;
+.nav ul { 
   justify-content: space-between;
+  display: flex;
 }
 
-.color-white {
-  color: #fff;
-  line-height: 0px;
-}
+

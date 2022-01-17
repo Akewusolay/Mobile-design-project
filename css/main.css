@@ -40,26 +40,21 @@
   color: #fff;
 }
 
-.mobile-picture {
-  background-image: url("../images/image_geometry_2.png");
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 50%;
-  width: 100%;
-  top: 109%;
+.first-image {
+padding-top: 18px;
+}
+
+.work {
+  display: grid;
+  justify-content: space-between;
+  width: auto;
 }
 
 .text3 {
   font: 400 50px/50px 'Playfair Display', serif;
-  padding-top: 70%;
+  padding-top: 8%;
   padding-left: 16px;
   padding-bottom: 16px;
-}
-
-.related-images .lap-pics img {
-  background-color: white;
-  width: 100%;
-  height: 60%;
 }
 
 .rectangle {
@@ -67,8 +62,9 @@
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
   width: 100%;
-  height: 50%;
+  height: 100%;
   color: #fff;
+  position: static;
 }
 
 .name {
@@ -77,28 +73,32 @@
   padding: 16px;
 }
 
-.list {
-  display: flex;
-  justify-content: space-evenly;
-  place-items: center;
+.nav ul {
+  list-style: none;
+  margin: 0 auto; 
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
-.html-css {
-  font: 300 10.33px/8.27px 'Poppins', sans-serif;
+.nav ul li {
+  font: 300 12px/8.27px 'Poppins', sans-serif;
   text-align: center;
-  padding: 12px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 14px;
   background: #98dede;
+  height: fit-content;
+  transition: background .5s; 
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
 }
 
 .colla-job {
-  display: flex;
   margin: 12px;
   padding: 5px;
   border: 1px solid #ffff;
   width: 60%;
-  height: 25%;
   place-items: center;
 }
 
@@ -109,13 +109,19 @@
   padding-left: 8px;
 }
 
-.design-project {
-  padding: 5px;
-  background-color: #0af;
-  width: 40%;
+.lap-pics {
+  padding-top: 18px;
 }
 
-.related-images .lap-pics {
-  position: static;
-  flex: 150px;
+.bx {
+  padding-right: 6px;
+  color: #fff;align-self: center;
+
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 322px) {
+  body{
+    background: #117bff;
+  }
+
 }
