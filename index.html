@@ -5,22 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile Design Project</title>
     <link rel="stylesheet" href="./css/index.css" />
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
   <body>
     <header>
       <div class="d-flex jc-btw">
         <img src="/images/image_geometry_1.svg" alt="logo" />
         <img class="menu" src="./images/ic_menu.svg" alt="menu" />
       </div>
+    </header>
+    <section class="pos-rel">
       <h1 class="text">Charlie Giorgania</h1>
       <p class="text2">
         Hello! I am a software developer! I can help you build a product, feature or website. Taka a
         look of my works. If you like what you see and have a project you need coded, don’t hesitate
-        and contact me.
-      </p>
-      <div class="collabo">
-        <a class="collabo-text" href="#">Start collaboration</a>
+        and contact me.</p>
+      <div class="collabo">  
+        <a href="#link" aria-label="start collaborate button">
+        Start collaboration </a> 
       </div>
-    </header>
+      <div class="first-image">
+      <img src="./images/image_geometry_2.png"> </div>
+    </section>
+    <section class="work">
+      <h2 class="text3">Projects</h2>
+      <div class="lap-pics">
+        <img src="./images/Rectangle 21.png"></div>
+      <div class="rectangle">
+        <h3 class="name">Project name goes here</h3>
+        <div class="nav">
+          <ul>
+            <li>HTML/CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+        <div class="colla-job">
+        <a href="" aria-label="Click button to see more" class="button">
+          <span class="pro-text">See this project</span> 
+          <span>
+          <i class='bx bx-arrow-back bx-rotate-180 bx-sm bx-pull-right color-white'></i> </span>
+          </a> 
+      </div>
+    </section>
+    <script src="./js/index.js"></script>
   </body>
 </html>

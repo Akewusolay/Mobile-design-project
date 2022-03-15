@@ -1,0 +1,127 @@
+.header {
+  width: 100%;
+  height: 92px;
+}
+
+.menu {
+  padding-top: 12px;
+}
+
+.text {
+  width: 220px;
+  height: 100px;
+  line-height: 50px;
+  padding-left: 16px;
+  padding-top: 10%;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+.text2 {
+  font: 400 14px/21px 'Poppins', sans-serif;
+  padding-top: 20%;
+  padding-left: 16px;
+}
+
+.collabo {
+  height: 50px;
+  margin-top: 26px;
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: #1a2236;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.collabo a {
+  font: 400 14px/21px 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.first-image {
+padding-top: 18px;
+}
+
+.work {
+  display: grid;
+  justify-content: space-between;
+  width: auto;
+}
+
+.text3 {
+  font: 400 50px/50px 'Playfair Display', serif;
+  padding-top: 8%;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.rectangle {
+  background-color: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  position: static;
+}
+
+.name {
+  font: 300 20px/16px 'Poppins', sans-serif;
+  text-align: left;
+  padding: 16px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0 auto; 
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.nav ul li {
+  font: 300 12px/8.27px 'Poppins', sans-serif;
+  text-align: center;
+  padding: 14px;
+  background: #98dede;
+  height: fit-content;
+  transition: background .5s; 
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer; 
+}
+
+.colla-job {
+  margin: 12px;
+  padding: 5px;
+  border: 1px solid #ffff;
+  width: 60%;
+  place-items: center;
+}
+
+.pro-text {
+  font: 500 16px/24px 'Poppins', sans-serif;
+  color: #fff;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.lap-pics {
+  padding-top: 18px;
+}
+
+.bx {
+  padding-right: 6px;
+  color: #fff;align-self: center;
+
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 322px) {
+  body{
+    background: #117bff;
+  }
+
+}

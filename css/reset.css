@@ -1,4 +1,10 @@
 /* Base styles */
+body {
+  background: #fff;
+  font-size: 14px;
+  width: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -6,3 +12,32 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+.d-flex {
+  position: relative;
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.jc-btw {
+  justify-content: space-between;
+}
+
+.pos-rel {
+  position: relative;
+  display: block;
+}
+
+.nav ul { 
+  justify-content: space-between;
+  display: flex;
+}
+
+
